@@ -66,27 +66,49 @@ section.main .lead {
 }
 
 .btn-primary:hover {
-    color: #020202;
-    border: 4px solid #020202;
+    color: white;
+    border: 4px solid #7b328b;
 }
 
 .btn-primary:focus {
-    color: #020202;
-    border: 2px solid #020202;
+    color: white;
+    padding: 12px 40px;
+    border: 4px solid #7b328b;
+    background-color: #7b328b;
+}
+
+.modal-content {
+    background-color: #f6f6f6;
 }
 
 .modal h5 {
+    font-size: 36px;
     font-weight: 700;
+    color: #AD55C0;
 }
 
-.form-control::after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 2px;
-    background: linear-gradient(to right, #D0E657 0%, #76FBF4 100%) 100% 100%;
+.form-control {
+    border-bottom: 2px solid #AD55C0;
+}
+
+form {
+    color: #555555;
+}
+
+form .btn-primary {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: none;
+    background: #AD55C0;
+    color: white;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+form a {
+    color: #020202;
 }
 
 /* Max 768px */
