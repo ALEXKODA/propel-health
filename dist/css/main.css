@@ -41,7 +41,7 @@ section.main .lead {
     letter-spacing: 0.8px;
     padding: 12px 40px;
     border-radius: 0;
-    border: 2px solid white;
+    border: 4px solid white;
     background: linear-gradient(90deg, #D0E657 0%, #76FBF4 100%);
     color: #020202;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -51,12 +51,12 @@ section.main .lead {
     font-size: 18px;
 }
 
-section.main .btn-primary:hover {
+.btn-primary:hover {
     color: #020202;
     border: 4px solid #020202;
 }
 
-section.main .btn-primary:focus {
+.btn-primary:focus {
     color: #020202;
     border: 2px solid #020202;
 }
