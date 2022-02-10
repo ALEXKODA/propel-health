@@ -64,21 +64,24 @@ section.main .lead {
     font-size: 18px;
 }
 
-.btn-primary:hover {
+.btn:hover {
     color: white;
     border: 4px solid #7b328b;
+    outline: none;
 }
 
-.btn-primary:active {
+.btn:active {
     color: white;
     border: 4px solid #7b328b;
     background-color: #7b328b;
+    outline: none;
 }
 
-.btn-primary:focus {
+.btn:focus {
     color: white;
     border: 4px solid #7b328b;
     background-color: #7b328b;
+    outline: none;
 }
 
 .modal-content {
