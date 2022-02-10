@@ -101,6 +101,7 @@ section.main .lead {
 
 .btn-close {
     padding-right: 24px;
+    box-shadow: none !important;
 }
 
 .form-control {
