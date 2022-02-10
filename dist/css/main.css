@@ -95,6 +95,10 @@ form {
     color: #555555;
 }
 
+form textarea {
+    resize: none;
+}
+
 form .btn-primary {
     font-weight: 400;
     font-size: 20px;
