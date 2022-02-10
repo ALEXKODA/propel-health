@@ -58,7 +58,7 @@ section.main .lead {
     color: white;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     outline: none;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .modal .btn-primary {
@@ -69,13 +69,6 @@ section.main .lead {
     color: white;
     background-color: #169e9e;
     border: none;
-    outline: none;
-}
-
-.btn-primary:active {
-    color: white;
-    border: none;
-    background-color: #1ccf93;
     outline: none;
 }
 
