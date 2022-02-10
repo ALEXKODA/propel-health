@@ -55,7 +55,7 @@ section.main .lead {
     border-radius: 0;
     border: none;
     background-color: #1ccf93;
-    color: white;
+    color: white !important;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     outline: none;
     box-shadow: none !important;
@@ -67,13 +67,13 @@ section.main .lead {
 
 .btn-primary:hover {
     color: white;
-    background-color: #1ccf93;
+    background-color: #13a071;
     border: none;
     outline: none;
 }
 
 .btn-primary:focus {
-    color: #111111;
+    color: white;
     background-color: #1ccf93;
     outline: none;
     box-shadow: none;
