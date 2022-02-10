@@ -66,12 +66,12 @@ section.main .lead {
 
 .btn-primary:hover {
     color: white;
-    background-color: #1ccf93;
+    background-color: #169e9e;
     border: none;
     outline: none;
 }
 
-.btn:active {
+.btn-primary:active {
     color: white;
     border: none;
     background-color: #1ccf93;
@@ -82,6 +82,7 @@ section.main .lead {
     color: #111111;
     background-color: #1ccf93;
     outline: none;
+    box-shadow: none;
 }
 
 .modal-content {
