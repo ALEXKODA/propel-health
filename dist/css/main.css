@@ -53,9 +53,9 @@ section.main .lead {
     line-height: 28px;
     letter-spacing: 0.8px;
     border-radius: 0;
-    border: 4px solid white;
-    background: linear-gradient(90deg, #D0E657 0%, #76FBF4 100%);
-    color: #020202;
+    border: none;
+    background-color: #7b328b;
+    color: white;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     outline: none;
 }
@@ -66,20 +66,19 @@ section.main .lead {
 
 .btn-primary:hover {
     color: white;
-    border: 4px solid #7b328b;
+    border: none;
     outline: none;
 }
 
 .btn:active {
     color: white;
-    border: 4px solid #7b328b;
+    border: none;
     background-color: #7b328b;
     outline: none;
 }
 
 .btn-primary:focus {
     color: white;
-    border: 4px solid #7b328b;
     background-color: #7b328b;
     outline: none;
 }
