@@ -90,8 +90,13 @@ section.main .lead {
 }
 
 .form-check-input:checked {
+    box-shadow: none !important
+}
+
+.form-check-input:checked {
     background-color: #1ccf93;
     border-color: #1ccf93;
+    box-shadow: none !important
 }
 
 .btn-close {
