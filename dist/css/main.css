@@ -58,6 +58,7 @@ section.main .lead {
     color: white;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     outline: none;
+    box-shadow: none;
 }
 
 .modal .btn-primary {
