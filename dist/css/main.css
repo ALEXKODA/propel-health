@@ -4,12 +4,22 @@ body {
 }
 
 section.main {
-    min-height: 100vh;
-    background: url(../img/bg.png) no-repeat top left;
-    background-size: contain;
-    height: 100%;
-    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+section.main img {
+    width: 100%;
+}
+
+.click-button {
+    position: absolute;
+    width: 30%;
+    height: 14%;
+    left: 8%;
+    bottom: 16%;
     cursor: pointer;
+    background: transparent;
 }
 
 /*
