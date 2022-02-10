@@ -87,6 +87,10 @@ section.main .lead {
     color: #AD55C0;
 }
 
+.btn-close {
+    padding-right: 24px;
+}
+
 .form-control {
     border-bottom: 2px solid #AD55C0;
 }
@@ -100,15 +104,11 @@ form textarea {
 }
 
 form .btn-primary {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    padding: 12px 40px;
     border-radius: 8px;
     border: none;
     background: #AD55C0;
     color: white;
-    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 form a {
