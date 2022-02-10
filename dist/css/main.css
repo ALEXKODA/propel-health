@@ -72,7 +72,6 @@ section.main .lead {
 
 .btn-primary:focus {
     color: white;
-    padding: 12px 40px;
     border: 4px solid #7b328b;
     background-color: #7b328b;
 }
@@ -149,7 +148,7 @@ form a {
         padding-bottom: 24px;
     }
 
-    */
+   
     
     .btn-primary {
         width: 100%;
@@ -157,5 +156,7 @@ form a {
         line-height: 24px;
         letter-spacing: 0.4px;
     }
+
+     */
 
 }
