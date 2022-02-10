@@ -78,7 +78,7 @@ section.main .lead {
 }
 
 .btn-primary:focus {
-    color: white;
+    color: #111111;
     background-color: #1ccf93;
     outline: none;
 }
@@ -113,7 +113,7 @@ form .btn-primary {
     border-radius: 8px;
     border: none;
     background: #1ccf93;
-    color: white;
+    color: #111111;
 
 }
 
