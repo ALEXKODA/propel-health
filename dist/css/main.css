@@ -89,6 +89,11 @@ section.main .lead {
     color: #1ccf93;
 }
 
+.form-check-input:checked {
+    background-color: #1ccf93;
+    border-color: #1ccf93;
+}
+
 .btn-close {
     padding-right: 24px;
 }
