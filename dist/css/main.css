@@ -89,7 +89,7 @@ section.main .lead {
     color: #1ccf93;
 }
 
-.form-check-input:checked {
+.form-check-input {
     box-shadow: none !important
 }
 
