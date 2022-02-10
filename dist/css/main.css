@@ -5,12 +5,14 @@ body {
 
 section.main {
     min-height: 100vh;
-    background: url(../img/bg1.jpg) no-repeat center right fixed;
-    background-size: cover;
+    background: url(../img/bg.png) no-repeat top left;
+    background-size: contain;
     height: 100%;
     overflow: hidden;
+    cursor: pointer;
 }
 
+/*
 section.main .logo {
     padding-top: 40px;
     padding-bottom: 72px;
@@ -33,6 +35,8 @@ section.main .lead {
     padding-bottom: 32px;
     line-height: 23.44px;
 }
+
+*/
 
 .btn-primary {
     font-weight: 700;
@@ -65,9 +69,21 @@ section.main .lead {
     font-weight: 700;
 }
 
+.form-control::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    background: linear-gradient(to right, #D0E657 0%, #76FBF4 100%) 100% 100%;
+}
+
 /* Max 768px */
 
 @media (max-width: 768px) { 
+
+    /* 
 
     section.main {
         background: url(../img/bg1.jpg) no-repeat center right fixed;
@@ -96,6 +112,8 @@ section.main .lead {
         font-size: 17px;
         padding-bottom: 24px;
     }
+
+    */
     
     .btn-primary {
         width: 100%;
