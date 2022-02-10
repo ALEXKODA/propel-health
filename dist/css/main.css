@@ -54,7 +54,7 @@ section.main .lead {
     letter-spacing: 0.8px;
     border-radius: 0;
     border: none;
-    background-color: #7b328b;
+    background-color: #1c70cf;
     color: white;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     outline: none;
@@ -73,13 +73,13 @@ section.main .lead {
 .btn:active {
     color: white;
     border: none;
-    background-color: #7b328b;
+    background-color: #1c70cf;;
     outline: none;
 }
 
 .btn-primary:focus {
     color: white;
-    background-color: #7b328b;
+    background-color: #1c70cf;;
     outline: none;
 }
 
@@ -90,7 +90,7 @@ section.main .lead {
 .modal h5 {
     font-size: 36px;
     font-weight: 700;
-    color: #AD55C0;
+    color: #1c70cf;;
 }
 
 .btn-close {
@@ -98,7 +98,7 @@ section.main .lead {
 }
 
 .form-control {
-    border-bottom: 2px solid #AD55C0;
+    border-bottom: 2px solid #1c70cf;;
 }
 
 form {
